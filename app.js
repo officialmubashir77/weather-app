@@ -37,11 +37,12 @@ function getWeather(city) {
 
   .then(data => {
       
-    console.log(data.main.temp);
+    // console.log(data.main.temp);
 
     if (data.cod == 404) {
       weather_box.style.display = "none" ; 
       weather_box2.style.display = "flex" ; 
+      weather_box2.style.flexDirection = "column" ; 
     }
     else{
       weather_box.style.display = "flex" ; 
@@ -69,6 +70,9 @@ function getWeather(city) {
     else if (data.weather[0].main == 'Snow') {
       icon.firstElementChild.src  = './assets/snow.png';
       
+    }
+    else{
+      icon.firstElementChild.src  = './assets/clear.png';
     }
 
     short_country.innerText = data.sys.country; 
