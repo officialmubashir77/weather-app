@@ -1,0 +1,144 @@
+body{
+    background-image: url('./assets/Frame.png');   
+    background-position: center 80px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+}
+.weather-app{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.weather-app .container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+.weather-app .container input {
+    border:  none;
+    outline: none;
+    padding: 10px 50px 10px 20px; 
+    background-color: #ACBCF8;
+    color: white;
+
+}
+.weather-app .container input::placeholder{
+    color: white;
+}
+.weather-app .container a .search-icon{
+    font-size: 22px;
+    color: #ACBCF8;
+}
+.weather-app .container .search-icon-parent{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block !important;
+    width: 50px;
+    height:  50px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.weather-app .container .main-parent form{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #ACBCF8;
+    padding-left: 20px;
+    border-radius: 50px;
+    margin-top: 50px;
+    scale: 1.3;
+}
+.weather-app .container  .weather-box{
+    width: 600px;
+    min-height: 300px;
+    margin-top: 50px;
+    display: none;
+}
+.icon {
+    width: 150px;
+    margin-inline: auto;
+}
+.icon img{
+    width: 100%;
+}
+.weather-app .container  .weather-box2{
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+
+}
+.weather-app .container  .weather-box2 h2{
+    color: rgba(0, 0, 0, 0.308);
+}
+.weather-app .container  .weather-box2 .icon {
+    width: 300px;
+}
+.weather-app .container  .weather-box .temprature-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.weather-app .container  .weather-box .temprature{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+.weather-app .container  .weather-box .temprature sup.celcius{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 12px;
+}
+.weather-app .container  .weather-box .country-div-parent span{
+    font-size: 25px;
+}
+.weather-app .container  .weather-box .country-div-parent span:first-child{
+    font-weight: 600;
+}
+.weather-app .container  .weather-box .country-div-parent span:last-child{
+    font-weight: 700;
+}
+.weather-app .container  .weather-box  .weather-details-parent {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.weather-app .container  .weather-box  .humidity-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.weather-app .container  .weather-box  .wind-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.weather-app .container  .weather-box  .weather-details-parent i {
+    font-size: 35px;
+    padding-right: 10px;
+}
+.weather-app .container  .weather-box  .weather-details-parent .fs-medium{
+    font-weight: bold;
+    font-size: 20px;
+}

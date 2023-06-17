@@ -1,0 +1,150 @@
+/* Media query for 1600px */
+
+@media only screen and (max-width: 1600px) {
+    body {
+        background-position: center 80px;
+        background-size: 53%;
+    }
+}
+
+/* Media query for 1536px */
+
+@media only screen and (max-width: 1536px) {
+    body {
+        background-position: center 50px;
+        background-size: 53%;
+    }
+}
+
+/* Media query for 1400px */
+
+@media only screen and (max-width: 1440px) {
+    body {
+        background-position: center 35px;
+        background-size: 60%;
+    }
+}
+
+
+
+/* Media query for 1280 */
+
+@media only screen and (max-width: 1280px) {
+    body {
+        background-position: center 35px;
+        background-size: 66%;
+    }
+}
+
+
+
+/* Media query for 1024 */
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-position: center 35px;
+        background-size: 83%;
+    }
+}
+
+
+/* Media query for 992 */
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-position: center 20px;
+        background-size: 89%;
+    }
+}
+
+
+/* Media query for 800 */
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-position: center 80px;
+        background-size: 95%;
+    }
+}
+
+
+/* Media query for 600 */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-position: center 80px;
+        background-size: 100% 80%;
+    }
+
+    .weather-app .container .main-parent form {
+        scale: 1.1;
+    }
+
+}
+/* Media query for 540 */
+
+@media only screen and (max-width: 540px) {
+    body {
+        background-position: center 120px;
+        background-size: 100% 73%;
+    }
+    .weather-app .container  .weather-box{
+        width:  500px !important;
+        
+    }
+}
+
+/* Media query for 480 */
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-position: center 10px;
+        background-size: cover;
+    }
+    .weather-app .container  .weather-box{
+        width:  480px !important;
+        
+    }
+}
+
+
+/* Media query for 425 */
+
+@media only screen and (max-width: 425px) {
+    .weather-app .container  .weather-box{
+        width:  410px !important;
+        
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .icon {
+        width: 120px;
+    }
+    .weather-app .container .weather-box .weather-details-parent {
+        
+        padding-inline: 15%;
+    }
+}
+/* Media query for 375 */
+
+@media only screen and (max-width: 375px) {
+    
+    body {
+        background-position: center 10px;
+        background-size: 250% 105%;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .weather-app .container .main-parent form {
+        scale: 0.9;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+
+}
+
