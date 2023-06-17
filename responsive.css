@@ -172,6 +172,9 @@
     .weather-app .container .weather-box2 .icon {
         width: 250px;
     }
+    .weather-app .container .main-parent {       
+        margin-inline: 5%;
+    }
 
 }
 
