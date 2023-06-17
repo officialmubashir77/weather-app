@@ -3,7 +3,7 @@
 @media only screen and (max-width: 1600px) {
     body {
         background-position: center 80px;
-        background-size: 53%;   
+        background-size: 53%;
     }
 }
 
@@ -95,6 +95,7 @@
     }
 
 }
+
 /* Media query for 540 */
 
 @media only screen and (max-width: 540px) {
@@ -104,15 +105,16 @@
         overflow-x: hidden !important;
 
     }
-    .weather-app .container  .weather-box{
-        width:  500px !important;
-        
+
+    .weather-app .container .weather-box {
+        width: 500px !important;
+
     }
 
     .weather-app .container .weather-box2 {
         width: 520px;
         overflow-x: hidden;
-        
+
     }
 }
 
@@ -125,15 +127,17 @@
         overflow-x: hidden !important;
 
     }
-    .weather-app .container  .weather-box{
-        width:  480px !important;
-        
+
+    .weather-app .container .weather-box {
+        width: 480px !important;
+
     }
+
     .weather-app .container .weather-box2 {
         width: 460px;
         overflow-x: hidden;
 
-        
+
     }
 }
 
@@ -141,18 +145,21 @@
 /* Media query for 425 */
 
 @media only screen and (max-width: 425px) {
-    .weather-app .container  .weather-box{
-        width:  410px !important;
-        
+    .weather-app .container .weather-box {
+        width: 410px !important;
+
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
+
     .icon {
         width: 120px;
     }
+
     .weather-app .container .weather-box .weather-details-parent {
-        
+
         padding-inline: 15%;
     }
 
@@ -161,28 +168,33 @@
         overflow-x: hidden;
         justify-content: space-around;
     }
+
     .weather-app .container .weather-box2 .icon {
         width: 250px;
     }
 
 }
+
 /* Media query for 375 */
 
 @media only screen and (max-width: 375px) {
-    
+
     body {
         background-position: center 10px;
         background-size: 250% 105%;
         overflow-x: hidden !important;
 
     }
-    .weather-app .container .main-parent form {
+
+    .weather-app .container .main-parent {
         scale: 1;
     }
+
     .weather-app .container .weather-box2 {
         width: 360px;
         overflow-x: hidden;
     }
+
     .weather-app .container .weather-box2 .icon {
         width: 220px;
     }
@@ -195,18 +207,19 @@
     .weather-app .container .main-parent form {
         scale: 0.9;
     }
+
     body {
         overflow-x: hidden !important;
     }
+
     .weather-app .container .weather-box2 {
         width: 95%;
         overflow-x: hidden;
         margin-inline: auto;
     }
 
-    .weather-app .container .weather-box2 h2{
+    .weather-app .container .weather-box2 h2 {
         font-size: 22px;
     }
 
 }
-
